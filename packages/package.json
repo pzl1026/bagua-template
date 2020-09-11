@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "start": "bagua -s",
+    "start": "bagua-cli -s",
     "build": "lerna run --scope @packages/* build",
-    "build2": "bagua -p",
+    "build2": "bagua-cli -p",
     "serve2": "lerna run --scope @packages/* --parallel serve",
     "serve": "serve dist -p 3001",
     "clean": "lerna run --scope @packages/* --parallel clean",
-    "add": "bagua -i"
+    "add": "bagua-cli -i"
   },
   "devDependencies": {
     "lerna": "3.22.1",
