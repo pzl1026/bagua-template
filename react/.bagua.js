@@ -3,6 +3,8 @@ const path = require('path');
 module.exports = {
   name: 'react',
   isTop: false,
+  shared: [{ react: { singleton: true } }],
+  library: { type: 'var', name: 'app2'},
   dev: {
     st1: {
       port: '3002',
