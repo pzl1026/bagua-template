@@ -2,7 +2,8 @@
   "name": "packages",
   "private": true,
   "scripts": {
-    "start": "bagua-cli -s",
+    "start": "bagua-cli -s start",
+    "start2": "bagua-cli -s start2",
     "build": "lerna run --scope @packages/* build",
     "build2": "bagua-cli -p",
     "serve2": "lerna run --scope @packages/* --parallel serve",

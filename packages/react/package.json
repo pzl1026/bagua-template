@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "bagua-cli -d st1",
+    "start2": "bagua-cli -d st1",
     "build": "bagua-cli -b st1",
     "serve": "serve dist -p 3002",
     "clean": "rm -rf dist",
