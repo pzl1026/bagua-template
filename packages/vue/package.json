@@ -33,6 +33,7 @@
     "add": "npm i && npm fund"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "vue": "^2.6.12",
     "vue-router": "^3.4.3"
   }

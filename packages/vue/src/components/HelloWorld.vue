@@ -89,7 +89,7 @@
 </template>
 
 <script>
-// import Api from '@/api/test';
+import Api from '@/api/test';
 export default {
     name: 'HelloWorld',
     data () {
@@ -99,9 +99,9 @@ export default {
         };
     },
     created () {
-        // Api.getData().then(res => {
-        //     this.list = res.data.list;
-        // });
+        Api.getData().then(res => {
+          console.log(res, 'res')
+        });
     }
 };
 </script>
