@@ -26,8 +26,8 @@
     "vue-style-loader": "^4.1.2"
   },
   "scripts": {
-    "start": "bagua -d st1",
-    "build": "bagua -b st1",
+    "start": "bagua-cli -d st1",
+    "build": "bagua-cli -b st1",
     "serve": "serve dist -p 3003",
     "clean": "rm -rf dist",
     "add": "npm i && npm fund"
