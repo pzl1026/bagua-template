@@ -1,6 +1,11 @@
 module.exports = {
   name: 'common',
   isTop: true,
+  shared: {
+    react: { singleton: true },
+    'react-dom': { singleton: true },
+    vue: { singleton: true },
+  },
   dev: {
     st1: {
       port: '3001',
